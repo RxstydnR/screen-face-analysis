@@ -1,11 +1,9 @@
-# Face Detection and Analysis on Real-time Screen Images.
+<img src="demo.png" alt="demo" style="zoom:40%;" />
+
+# Real-time Face Detection and Analysis on Screen Images.
 
 This repository is a simple implementation mainly using OpenCV and Keras for real-time facial expression analysis.
 It detects a person's face on a PC screen and predicts the emotion of that face. 
-
-
-
-<img src="/Users/macbookpro/Desktop/Facenet/demo.png" alt="demo" style="zoom:40%;" />
 
 
 
@@ -29,7 +27,7 @@ python main.py
 4. Face Analysis. (Keras)
 5. => loop 2 ~ 5
 
-###1. Get a screen location.
+### 1. Get a screen location.
 
 At first, you will be asked to specify the location of the screen shot. Place the cursor on the upper left and lower right corner of the window and press Enter key.
 
@@ -45,7 +43,7 @@ Multiple displays are also available. It is possible to specify the location of 
 
 [MTCNN](https://github.com/ipazc/mtcnn) provides the MTCNN face detector which is a Keras implementation. The model's accuracy is better than [OpenCV's CascadeClassifier](https://pythonprogramming.net/haar-cascade-object-detection-python-opencv-tutorial/) but FPS performance is inferior.
 
-This model outputs face bounding box and key points info. (more details in [mtcvv github](https://github.com/ipazc/mtcnn))
+This model outputs face bounding box and key points info. (more details in [mtcnn github](https://github.com/ipazc/mtcnn))
 
 ### 4. Face Analysis. 
 
@@ -104,7 +102,7 @@ If your computer OS is Windows OS, Application Window Tracking is available with
 
 On the other hand, Mac OS doesn't support any API for Application Window Tracking.
 
-#####How to do Window Trancking on Mac, but still no way.
+##### How to do Window Trancking on Mac, but still no way.
   - [numpy - MacOS: Using python to capture screenshots of a specific window - Stack Overflow](https://stackoverflow.com/questions/62707662/macos-using-python-to-capture-screenshots-of-a-specific-window)
   - [macos - How to get active window title using Python in Mac? - Stack Overflow](https://stackoverflow.com/questions/28815863/how-to-get-active-window-title-using-python-in-mac/37368813)
   - [Obtain list of all window titles on macOS from a Python script - Stack Overflow](https://stackoverflow.com/questions/53237278/obtain-list-of-all-window-titles-on-macos-from-a-python-script)
