@@ -88,7 +88,7 @@ To use the OpenCV Face Recognition , necessary to download opencv xml file [here
 
 > Facial Action Coding System (FACS) is a system to taxonomize human facial movements by their appearance on the face. Movements of individual facial muscles are encoded by FACS from slight different instant changes in facial appearance. Using FACS it is possible to code nearly any anatomically possible facial expression, deconstructing it into the specific Action Units (AU) that produced the expression. It is a common standard to objectively describe facial expressions.
 
-Emotional analysis alone is not enough to analyze facial expressions, and even deeper information can be obtained by analyzing **Facial Action Units**, but an implementation that can easily run the Facial Action Coding System has not been provided [OpenFace](https://github.com/TadasBaltrusaitis/OpenFace) provides only matlab codes). 
+Emotional analysis alone is not enough to analyze facial expressions, and even deeper information can be obtained by analyzing **Facial Action Units**, but an implementation that can easily run the Facial Action Coding System has not been provided ([OpenFace](https://github.com/TadasBaltrusaitis/OpenFace) provides only matlab codes). 
 
 **When easily available Facial Action Coding System in python is come out somewhere, I will add Facial Action Units Analysis part using some facial feature extractor such as FaceNet .**
 
