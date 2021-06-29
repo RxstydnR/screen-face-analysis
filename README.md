@@ -112,3 +112,6 @@ On the other hand, Mac OS doesn't support any API for Application Window Trackin
   - [objective c - Finding the Current Active Window in Mac OS X using Python - Stack Overflow](https://stackoverflow.com/questions/373020/finding-the-current-active-window-in-mac-os-x-using-python/25214024)
   - [Obtain Active window using Python - Stack Overflow](https://stackoverflow.com/questions/10266281/obtain-active-window-using-python)
 
+#### More convenience
+- [画像の一部のみ処理するＲＯＩの設定について](https://qiita.com/wakaba130/items/3a9f0dd23dfacc5b4602)
+
